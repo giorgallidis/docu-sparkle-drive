@@ -5,7 +5,7 @@ import {
   FileSpreadsheet, 
   FileCode, 
   File,
-  Flask,
+  Flask2,  // Changed from Flask to Flask2
   Activity,
   Camera
 } from "lucide-react";
@@ -30,7 +30,7 @@ export const getFileIcon = (fileType: FileItem['fileType']) => {
 export const getCategoryIcon = (type: FileItem['type']) => {
   switch (type) {
     case 'labs':
-      return Flask;
+      return Flask2;  // Changed from Flask to Flask2
     case 'body':
       return Activity;
     case 'imaging':
